@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <title>User check page</title>
+  </head>
+  <body>
+    <div class="first-section">
+      <h1 class="traverse">TRAVERSE</h1>
+      <p class="tagline">Play with fun, just enter your name and age in the fields below and click search to search</p>
+    </div>
+    <div class="whole">
+      <div class="top-section">
+        <span id="reset" title="reset all">reset</span>
+        <span id="show-stats">showing 20 users</span>
+      </div>
+
+      <form class="section1">
+        <div>
+          <p>Name</p>
+          <input
+            type="text"
+            placeholder="search User"
+            name="name"
+            id="search-name"
+          />
+        </div>
+        <div>
+          <p>Age</p>
+          <input
+            type="number"
+            placeholder="search age"
+            name="age"
+            id="search-age"
+          />
+        </div>
+        <button type="submit" title="search name or and age">Search</button>
+      </form>
+      <div class="all-users"></div>
+    </div>
+
+    <script src="assets/scripts/script.js" type="module"></script>
+  </body>
+</html>
