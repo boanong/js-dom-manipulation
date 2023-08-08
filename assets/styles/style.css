@@ -4,7 +4,7 @@
 
 body {
   font-family: sans-serif;
-  background: linear-gradient(to right, royalblue, #81b1e0);
+  background: linear-gradient(to right, rgb(25, 72, 214), #568bc0);
 }
 
 button {
@@ -22,7 +22,7 @@ button {
 .traverse {
   color: white;
   font-size: 6em;
-  font-weight: 750;
+  font-weight: 700;
   letter-spacing: 15px;
   margin-bottom: 0;
 }
@@ -61,7 +61,7 @@ button {
 }
 
 .section1 {
-  background-color: powderblue;
+  background-color: rgb(227, 191, 118);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -94,13 +94,14 @@ button {
 }
 
 .user {
-  background-color: #777;
+  background-color: rgb(214, 212, 212);
   margin: 1rem auto;
   display: flex;
   align-items: center;
   height: fit-content;
   min-height: 70px;
   transition: 0.5s;
+  border-radius: 20px;
 }
 
 .display-div {
@@ -117,9 +118,9 @@ button {
   background-position: center;
   background-repeat: no-repeat; */
 
-  background-color: #000;
+  background-color: rgb(84, 84, 210);
   border-radius: 50px;
-  color: #a52a2a;
+  color: white;
   width: 115px;
   height: 90px;
   margin: 10px;
@@ -148,7 +149,7 @@ button {
 }
 
 .user .remove-user {
-  background-color: #a52a2a;
+  background-color: blue;
   color: #fff;
   display: flex;
   align-items: center;
@@ -166,18 +167,50 @@ button {
   left: 0;
   top: 50%;
   transform: translate(-50%, calc(-50% + 0.5px)) rotate(45deg);
-  background-color: transparent;
   width: 0;
   height: 0;
   margin: 0;
-  border-left: 12px solid #a52a2a;
+  border-left: 12px solid blue;
   border-top: 12px solid transparent;
   border-right: 12px solid transparent;
-  border-bottom: 12px solid #a52a2a;
+  border-bottom: 12px solid blue;
 }
 
 .user button span {
   font-size: 30px;
   color: #000;
   margin-right: 2px;
+}
+
+@media screen and (max-width: 768px) {
+  .whole {
+    width: 95%;
+  }
+
+  .first-section {
+    width: 95%;
+  }
+
+  .traverse {
+    font-size: 20pt;
+  }
+
+  .user {
+    width: 95%;
+    height: 50px;
+  }
+
+  .user .user-profile {
+    height: 6vh;
+    width: 6vh;
+    font-size: 16pt;
+  }
+
+  .tagline {
+  }
+
+  .overall-container {
+    width: 95%;
+  }
+
 }
