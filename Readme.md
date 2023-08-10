@@ -1,6 +1,6 @@
 # JS Dom Manipulation
 
-In this project, given the position of two queens on a chess board, I indicate whether or not they are positioned so that they can attack each other. This is as done in the game of chess where a queen can attack pieces that are on the same row, column, or diagonal.
+This project was a simple assignment given to test our still growing skills. it's about implementing a simple searching form-like page
 
 ## App
 
